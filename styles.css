@@ -12,18 +12,6 @@ p {
     text-shadow: #FF0000 2px 2px 5px;
 }
 
-.home-button {
-    color: #ffffff;
-    background-color: #FF2020;
-    border-radius: 2px;
-    padding: 5px;
-    margin-top: 20px;
-}
-
-.home-button:hover {
-    padding: 10px;
-}
-
 table {
     font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -43,7 +31,14 @@ img {
     width: 50%;
 }
 
+ul .header {
+    list-style-type: none;
+}
+
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     margin: 0px 0px;
     padding: 0px 0px;
     width: 100%;
@@ -95,6 +90,16 @@ img:hover~#backrooms-attribution {
     bottom: 0;
     float: right;
     width: 100%;
-    padding: 4px 0px;
+    padding: 0px 10px;
+    background-color: #8B0000;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 10px;
+    width: 75%;
+}
+
+table th {
     background-color: #8B0000;
 }
